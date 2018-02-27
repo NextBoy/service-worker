@@ -16,6 +16,7 @@ sw.addEventListener('install', (event) => {
 
 
 sw.addEventListener('fetch', (event) => {
+    console.log(event)
     event.respondWith(
         caches.match(event.request)
             .catch(() => fetch(event.request))
