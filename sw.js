@@ -6,6 +6,7 @@ sw.addEventListener('install', (event) => {
         caches.open('v1')
             .then(cache => {
                 return cache.addAll([
+                    '/service-worker/app.js',
                     '/service-worker/index.html',
                     '/service-worker/test.jpg'
                 ])
