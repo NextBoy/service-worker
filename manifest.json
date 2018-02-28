@@ -1,0 +1,13 @@
+{
+  "short_name": "PWA",
+  "name": "PWA小测试",
+  "icon": [
+    {
+      "src": "test.jpg",
+      "type": "image/jpeg",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen"
+}
